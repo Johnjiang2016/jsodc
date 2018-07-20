@@ -1,0 +1,17 @@
+{
+    "frontboss": {
+        "source": {
+            "include": ["../frontboss/src/controller/tools", "../frontboss/src/controller/entry/controller.js"],
+            "includePattern": ".+\\.js(x)?$",
+            "excludePattern": "(^|\\/|\\\\)_"
+        }
+    },
+    "frontautopublish": {
+        "source": {
+            "include": ["../frontautopublish/common", "../frontautopublish/components", "../frontautopublish/src"],
+            "exclude": [],
+            "includePattern": ".+\\.js(x)?$",
+            "excludePattern": "(^|\\/|\\\\)_"
+        }
+    }
+}

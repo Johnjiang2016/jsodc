@@ -1,0 +1,22 @@
+{
+    "name": "ttpai-jsdoc",
+    "version": "1.1.1",
+    "description": "ttpai jsdoc",
+    "main": "index.js",
+    "scripts": {
+        "doc": "node scripts/index.js",
+        "server": "http-server ./doc"
+    },
+    "keywords": [
+        "jsdoc"
+    ],
+    "jsdoc3": "https://github.com/jsdoc3/jsdoc",
+    "author": "jiangchengbao11 <chengbao11.jiang@ttpai.cn> (https://www.ttpai.cn/)",
+    "license": "MIT",
+    "devDependencies": {
+        "chalk": "^2.4.1",
+        "docdash": "^0.4.0",
+        "jsdoc": "^3.5.5",
+        "shelljs": "^0.8.2"
+    }
+}
